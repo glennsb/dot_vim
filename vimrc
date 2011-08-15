@@ -63,3 +63,5 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
  map <leader>tl :tablast<cr>
  map <leader>tm :tabmove
 
+ map <F2> :NERDTreeToggle<cr>
+

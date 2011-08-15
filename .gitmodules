@@ -1,0 +1,27 @@
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = https://github.com/vim-scripts/Command-T.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-fugative"]
+	path = bundle/vim-fugative
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-ragtag"]
+	path = bundle/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "bundle/nerd_tree"]
+	path = bundle/nerd_tree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/vim-a"]
+	path = bundle/vim-a
+	url = https://github.com/vim-scripts/a.vim.git
