@@ -53,15 +53,16 @@ set nowritebackup                 " And again.
 set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
 " Tab mappings.
- map <leader>tt :tabnew<cr>
- map <leader>te :tabedit
- map <leader>tc :tabclose<cr>
- map <leader>to :tabonly<cr>
- map <leader>tn :tabnext<cr>
- map <leader>tp :tabprevious<cr>
- map <leader>tf :tabfirst<cr>
- map <leader>tl :tablast<cr>
- map <leader>tm :tabmove
+map <leader>tt :tabnew<cr>
+map <leader>te :tabedit
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+map <leader>tn :tabnext<cr>
+map <leader>tp :tabprevious<cr>
+map <leader>tf :tabfirst<cr>
+map <leader>tl :tablast<cr>
+map <leader>tm :tabmove
 
- map <F2> :NERDTreeToggle<cr>
+map <F2> :NERDTreeToggle<cr>
 
+:imap jj <Esc>
