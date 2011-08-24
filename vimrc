@@ -30,7 +30,7 @@ set visualbell " no beeping sucker
 set cursorline " hilight current line
 set laststatus=2 " always show the last status line
 set list " show hidden
-set listchars=trail:.,tab:>-,eol:$ " which hidden
+set listchars=trail:.,tab:▸\ ,eol:$ " which hidden
 
 set ignorecase
 set smartcase
