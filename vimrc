@@ -38,6 +38,12 @@ set smartcase
 "set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+"let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
+let g:syntastic_stl_format = '[Syntax: line:%F (%t)]'
+set statusline+=%{SyntasticStatuslineFlag()}
+
 colorscheme grb256
 
 set expandtab
