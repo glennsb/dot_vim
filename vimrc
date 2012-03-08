@@ -22,6 +22,8 @@ set ruler " show cursor position
 set nowrap " turn off line wrapping
 
 set hlsearch " highligh matches
+noremap <C-l> :nohlsearch<CR><C-l>
+noremap! <C-l> <ESC>:nohlsearch<CR><C-l>
 set incsearch " highclight matches as typed
 set showmatch
 
