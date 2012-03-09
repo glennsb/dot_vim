@@ -1,6 +1,11 @@
 set nocompatible " Must come first because it changes other options.
 
 silent! call pathogen#runtime_append_all_bundles()
+silent! call pathogen#helptags()
+
+" change the mapleader from \ to ,
+let mapleader = ","
+set history=1000
 
 syntax enable " syntax highlighting
 filetype plugin indent on " file type detection
@@ -74,5 +79,8 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
 map <F2> :NERDTreeToggle<cr>
+set pastetoggle=<F3>
 
 :imap jj <Esc>
+nnoremap ; :
+cmap w!! w !sudo tee % >/dev/null
