@@ -34,7 +34,7 @@ set showmatch
 
 set visualbell " no beeping sucker
 
-set cursorline " hilight current line
+"set cursorline " hilight current line
 set laststatus=2 " always show the last status line
 set list " show hidden
 set listchars=trail:.,tab:▸\ ,eol:$ " which hidden
@@ -51,6 +51,7 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_stl_format = '[Syntax: line:%F (%t)]'
 set statusline+=%{SyntasticStatuslineFlag()}
 
+set t_Co=256
 colorscheme grb256
 
 set expandtab
