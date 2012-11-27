@@ -85,3 +85,9 @@ set pastetoggle=<F3>
 :imap jj <Esc>
 nnoremap ; :
 cmap w!! w !sudo tee % >/dev/null
+
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
