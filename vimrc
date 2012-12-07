@@ -52,7 +52,11 @@ let g:syntastic_stl_format = '[Syntax: line:%F (%t)]'
 set statusline+=%{SyntasticStatuslineFlag()}
 
 set t_Co=256
-colorscheme grb256
+set term=screen-256color-bce
+let g:solarized_termcolors=256
+let g:solarized_termcolors=1
+set background=light
+colorscheme solarized
 
 set expandtab
 set softtabstop=2
