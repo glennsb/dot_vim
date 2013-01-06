@@ -53,7 +53,10 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_stl_format = '[Syntax: line:%F (%t)]'
 set statusline+=%{SyntasticStatuslineFlag()}
 
-"set t_Co=256
+set t_Co=256
+set term=screen-256color-bce
+let g:solarized_termcolors=256
+let g:solarized_termcolors=1
 set background=light
 colorscheme solarized
 
