@@ -85,6 +85,7 @@ map <leader>tm :tabmove
 
 map <F2> :NERDTreeToggle<cr>
 set pastetoggle=<F3>
+nmap <F8> :TagbarToggle<CR>
 
 :imap jj <Esc>
 nnoremap ; :
