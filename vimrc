@@ -39,7 +39,8 @@ set laststatus=2 " always show the last status line
 set list " show hidden
 
 " which hidden
-set listchars=trail:.,tab:▸\ ,eol:$ 
+"scriptencoding utf-8
+set listchars=trail:.,tab:»·,eol:$ 
 
 set ignorecase
 set smartcase
