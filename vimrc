@@ -88,6 +88,9 @@ map <leader>tm :tabmove
 map <F2> :NERDTreeToggle<cr>
 set pastetoggle=<F3>
 nmap <F8> :TagbarToggle<CR>
+if (match(system("uname -s"), "Darwin") != -1)
+  let g:tagbar_ctags_bin='/opt/hb/bin/ctags'
+end
 
 :imap jj <Esc>
 nnoremap ; :
