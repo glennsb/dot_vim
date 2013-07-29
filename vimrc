@@ -101,3 +101,10 @@ map <leader>ew :e %%
 map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
+
+
+let g:airline_enable_branch=1
+let g:airline_enable_syntastic=1
+let g:airline_detect_modified=1
+let g:airline_detect_paste=1
+let g:airline_theme='solarized'
