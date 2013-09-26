@@ -119,3 +119,8 @@ if has('autocmd')
   endif
   au BufNewFile,BufRead COMMIT_EDITMSG call feedkeys('ggi','t')
 endif
+
+let g:GPGPreferArmor=1
+let g:GPGDefaultRecipients=["Stuart-Glenn@omrf.org"]
+let g:GPGUseAgent=0
+let g:GPGUsePipes=1
