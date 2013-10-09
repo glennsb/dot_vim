@@ -124,3 +124,5 @@ let g:GPGPreferArmor=1
 let g:GPGDefaultRecipients=["Stuart-Glenn@omrf.org"]
 let g:GPGUseAgent=0
 let g:GPGUsePipes=1
+
+au BufRead,BufNewFile *.go set filetype=go
