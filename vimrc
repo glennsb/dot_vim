@@ -102,6 +102,8 @@ map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
+nnoremap <Space> za
+vnoremap <Space> za
 
 let g:airline_enable_branch=1
 let g:airline_enable_syntastic=1
@@ -121,8 +123,9 @@ if has('autocmd')
 endif
 
 let g:GPGPreferArmor=1
+let g:GPGPreferSign=1
 let g:GPGDefaultRecipients=["Stuart-Glenn@omrf.org"]
-let g:GPGUseAgent=0
+let g:GPGUseAgent=1
 let g:GPGUsePipes=1
 
 au BufRead,BufNewFile *.go set filetype=go
