@@ -129,3 +129,6 @@ let g:GPGUseAgent=1
 let g:GPGUsePipes=1
 
 au BufRead,BufNewFile *.go set filetype=go
+
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
