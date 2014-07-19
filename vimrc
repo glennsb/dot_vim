@@ -4,7 +4,8 @@ silent! call pathogen#runtime_append_all_bundles()
 silent! call pathogen#helptags()
 
 " change the mapleader from \ to ,
-let mapleader = ","
+"let mapleader = ","
+let mapleader = "\<space>"
 set history=1000
 
 syntax enable " syntax highlighting
@@ -56,7 +57,7 @@ set fillchars+=stl:\ ,stlnc:\
 set t_Co=256
 set term=screen-256color-bce
 let g:solarized_termcolors=256
-let g:solarized_termcolors=1
+let g:solarized_termtrans=16
 set background=light
 colorscheme solarized
 
@@ -93,7 +94,7 @@ if (match(system("uname -s"), "Darwin") != -1)
 end
 
 :imap jj <Esc>
-nnoremap ; :
+"nnoremap ; :
 cmap w!! w !sudo tee % >/dev/null
 
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
@@ -125,7 +126,7 @@ endif
 let g:GPGPreferArmor=1
 let g:GPGPreferSign=1
 let g:GPGDefaultRecipients=["Stuart-Glenn@omrf.org"]
-let g:GPGUseAgent=1
+let g:GPGUseAgent=0
 let g:GPGUsePipes=1
 
 au BufRead,BufNewFile *.go set filetype=go
