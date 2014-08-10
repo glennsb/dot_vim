@@ -68,6 +68,10 @@ set tabstop=2
 set autoindent
 
 set foldenable
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+set foldmethod=syntax
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
